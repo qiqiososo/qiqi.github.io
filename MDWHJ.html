@@ -26,7 +26,6 @@
             padding: 0 20px;
         }
 
-        /* 图片展示区 */
         .image-gallery {
             margin-bottom: 30px;
             background: white;
@@ -57,11 +56,16 @@
             cursor: pointer;
         }
 
+        .gallery-image.logo {
+            height: 180px;
+            object-fit: contain;
+
+        }
+
         .gallery-image:hover {
             transform: scale(1.03);
         }
 
-        /* 信息卡片 */
         .info-section {
             background: white;
             border-radius: 12px;
@@ -99,7 +103,6 @@
             flex: 1;
         }
 
-        /* 状态标签 */
         .status-tag {
             display: inline-block;
             padding: 8px 20px;
@@ -111,7 +114,6 @@
             box-shadow: 0 2px 8px rgba(40, 167, 69, 0.3);
         }
 
-        /* 底部信息 */
         .footer {
             text-align: center;
             padding: 20px;
@@ -140,19 +142,17 @@
 
 <body>
     <div class="container">
-        <!-- 图片展示区域 -->
         <div class="image-gallery">
             <h3 class="gallery-title">牡丹文化节图片</h3>
             <div class="image-container">
-                <img src="http://111.7.82.66:8090/wtcp-file/original/20230504/20230504110931148.JPG" alt="洛阳牡丹"
+                <img src="http://111.7.82.66:8090/wtcp-file/original/20230504/20230504111009363.JPG" alt="洛阳牡丹"
                     class="gallery-image">
-                <img src="https://xcoss.henan.gov.cn/typtfile/img/20250430/173e5c99d033452498011d93df3c2d20.jpg"
-                    alt="42届洛阳牡丹文化节" class="gallery-image">
-                <img src="http://111.7.82.66:8090/wtcp-file/original/20230504/20230504110946583.JPG" alt="洛阳牡丹"
+                <img src="https://raw.githubusercontent.com/qiqiososo/qiqi.github.io/main/MDBZ.jpeg" alt="洛阳牡丹文化节标志"
+                    class="gallery-image logo">
+                <img src="http://111.7.82.66:8090/wtcp-file/original/20230504/20230504111038605.JPG" alt="洛阳牡丹"
                     class="gallery-image">
             </div>
         </div>
-        <!-- 核心信息区域 -->
         <div class="info-section">
             <h2 class="section-title">详细介绍</h2>
             <div class="info-detail">
